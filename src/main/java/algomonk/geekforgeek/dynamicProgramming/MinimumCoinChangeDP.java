@@ -3,12 +3,12 @@ package algomonk.geekforgeek.dynamicProgramming;
 public class MinimumCoinChangeDP {
 
     public static void main(String[] args) {
-        int[] coins = {2,1, 5, 10};
-        //int[] coins = {186, 419, 83, 408};
+        //int[] coins = {2,1, 5, 10};
+        int[] coins = {5, 2, 3};
 
 
 
-        int amount = 15;
+        int amount = 6;
         System.out.println(change(coins, amount));
 
     }
